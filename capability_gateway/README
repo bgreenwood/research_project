@@ -1,0 +1,16 @@
+README 
+---
+
+Project: 	research_project/capability_gateway
+Author: 	ben.greenwood@ldcdc.net
+
+Description:
+NOTE - THIS TOOL AND PROJECT IS INCOMPLETE. THIS SOFTWARE CAN LIKELY NOT BE COMPILED OR EXECUTED. 
+
+The premise behind the capability gateway is to parse a SPARQL query and identify predicates which match known capabilities available in other Stores. The gateway then rewrites the query to use SPARQL 1.1 Federated Queries to map these subparts of the request to alternate gateways. 
+
+This tool is based on an adapted version of Rdflib python library
+
+
+[1] SPARQL 1.1 Federated Query, http://www.w3.org/TR/sparql11-federated-query/
+[2] RDFLib - a Python library for working with RDF, https://github.com/RDFLib

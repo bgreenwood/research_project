@@ -1,0 +1,22 @@
+README & Installation Notes
+---
+
+Project: 	research_project/workbench
+Author: 	ben.greenwood@ldcdc.net
+
+Description:
+The project workbench provides an interactive web-based UI for managing and querying  triplestores/graph databases which support the SPARQL 1.1 Graph Store HTTP Protocol [1]. The workbench enables rapid experimentation through an easily accessible configuration editor, data management tool, graph visualisation tool and query interface. 
+
+This tool is based on an adapted version of the EasyRdf library [2] and a fork of the CodeIgniter PHP Framework [3].
+
+
+[1] SPARQL 1.1 Graph Store HTTP Protocol, http://www.w3.org/TR/2013/REC-sparql11-http-rdf-update-20130321/
+[2] EasyRdf - RDF Library for PHP, http://www.easyrdf.org
+[3] Codeigniter PHP Framework, http://www.codeigniter.com/
+
+Installation:
+
+This software requires a HTTP webserver with PHP installed. 
+1. Copy the workbench files onto a web server running PHP
+2. Edit the config/config.php file to reference the Graph Store you want to interact with. For Stores that require authentication, you will need to set an a valid username/password in this file. 
+3. Visit http://localhost/workbench/dashboard/ in your browser and interact with the Graph Store. 
